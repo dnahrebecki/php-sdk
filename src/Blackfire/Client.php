@@ -426,7 +426,7 @@ class Client
 
         $caPath = CaBundle::getSystemCaRootBundlePath();
         $sslOpts = array(
-            'verify_peer' => 1,
+            'verify_peer' => false,
             'verify_host' => 2,
         );
 
